@@ -2,17 +2,23 @@
 #div1{
     border: 50px solid #ff0000;
     background-color: #ffa500;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #div2{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     border: 50px solid #ffff00;
     background-color: #008000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #div3{
