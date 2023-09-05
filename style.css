@@ -1,0 +1,99 @@
+.formbody {
+  background-color: #dfe0e0;
+  width: 650px;
+  height: 440px;
+  padding: 10px;
+}
+
+.progressbar {
+  display: flex;
+  align-items: center;
+  padding: 0px 60px;
+  /* justify-content: space-evenly; */
+
+}
+
+.stepper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+    height: 4px;
+    width: 130px;
+    background-color: black;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: white;
+}
+
+#circle1{
+    background-color: green;
+    color: white;
+}
+
+.progressText{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    margin-top: 20px;
+}
+
+.item {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#item1 {
+  border-left: 5px solid blue;
+  color: blue;
+}
+
+#item2{
+    border-left: 5px solid red;
+    color: red;
+}
+
+#item3{
+    border-left: 5px solid orange;
+    color: orange;
+}
+
+#item4{
+    border-left: 5px solid green;
+    color: green;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.continue{
+    background-color: #02203C;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
