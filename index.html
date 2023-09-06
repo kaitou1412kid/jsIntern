@@ -56,8 +56,47 @@
             </div>
         </div>
         <div class="bottom">
-            <button type="submit" class="continue">Continue</button>
+            <button type="submit" class="continue" onclick="func()">Continue</button>
         </div>
     </div>
 </body>
+<script>
+    let state = 0;
+    function func(){
+        if(state === 0){
+            document.getElementById("circle1").style.backgroundColor = "white";
+            document.getElementById("circle1").style.color = "black";
+
+            document.getElementById("circle2").style.backgroundColor = "green";
+            document.getElementById("circle2").style.color = "white";
+        
+            state++;
+        }else if(state === 1){
+            document.getElementById("circle2").style.backgroundColor = "white";
+            document.getElementById("circle2").style.color = "black";
+
+            document.getElementById("circle3").style.backgroundColor = "green";
+            document.getElementById("circle3").style.color = "white";
+        
+            state++;
+        }else if(state === 2){
+            document.getElementById("circle3").style.backgroundColor = "white";
+            document.getElementById("circle3").style.color = "black";
+
+            document.getElementById("circle4").style.backgroundColor = "green";
+            document.getElementById("circle4").style.color = "white";
+        
+            state++;
+        }else {
+            document.getElementById("circle4").style.backgroundColor = "white";
+            document.getElementById("circle4").style.color = "black";
+
+            document.getElementById("circle1").style.backgroundColor = "green";
+            document.getElementById("circle1").style.color = "white";
+            alert("Form submitted");
+
+            state = 0;
+        }
+    }
+</script>
 </html>
